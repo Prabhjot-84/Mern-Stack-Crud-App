@@ -8,7 +8,7 @@ import AllUsers from './components/AllUsers';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
-  return (
+  return ( 
     <BrowserRouter>
 
       <NavBar/>
