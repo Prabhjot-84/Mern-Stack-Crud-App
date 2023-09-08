@@ -15,7 +15,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<CodeFox/>} />
-        <Route path='/all' element={<AllUsers/>} />
+        <Route path='/all' element={<AllUsers/>} /> 
         <Route path='/add' element={<AddUser/>} />
       </Routes>
 

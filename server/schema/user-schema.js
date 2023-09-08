@@ -9,8 +9,8 @@ const userSchema = mongoose.Schema({
 })
 
 autoIncrement.initialize(mongoose.connection);
-// userSchema.plugin(autoIncrement.plugin, 'user');
+userSchema.plugin(autoIncrement.plugin, 'user');
 
-const user = mongoose.model('user', userSchema);
+const user = mongoose.model('user', userSchema); 
 
 export default user;
